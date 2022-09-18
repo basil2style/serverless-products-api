@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "646c80f5-e361-457d-a130-7800906e2a69",
+		"name": "serverless-products-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"asthal\"\n}"
+				},
+				"url": {
+					"raw": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/product",
+					"protocol": "https",
+					"host": [
+						"ccey331y4k",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"asthal\"\n}"
+				},
+				"url": {
+					"raw": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/products",
+					"protocol": "https",
+					"host": [
+						"ccey331y4k",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/product/skdjfsldkfjrieuheirfndksfnlskjdfhlsd",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ccey331y4k.execute-api.us-east-1.amazonaws.com/product/skdjfsldkfjrieuheirfndksfnlskjdfhlsd",
+					"protocol": "https",
+					"host": [
+						"ccey331y4k",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"product",
+						"skdjfsldkfjrieuheirfndksfnlskjdfhlsd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
